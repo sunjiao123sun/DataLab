@@ -31,7 +31,7 @@ DATABASES = {
         # Docker adds the db container to
         # /etc/hosts automatically.
         # Set to empty string for default. Not used with sqlite3.
-        'HOST': DB_HOST,
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
